@@ -242,7 +242,7 @@
 
       // Adds a menu item to the tools menu
       editor.addMenuItem('uploadimage', {
-        text: ed.translate('Insert an image from your computer'),
+        text: 'Insert an image from your computer',
         icon : 'image',
         context: 'insert',
         onclick: showDialog
